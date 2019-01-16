@@ -1,0 +1,28 @@
+{
+    "name": "deployee/plugin-filesystemtasks",
+    "description": "",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Phillip Schleicher",
+            "email": "the@phizzl.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "deployee/plugin-deploy": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deployee\\Plugins\\FilesystemTasks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deployee\\Plugins\\FilesystemTasks\\": "tests/"
+        }
+    }
+}
